@@ -1,0 +1,5 @@
+---
+hostname: CombinedDB
+dbname: CombinedDB
+domain: cte-prod.aws.gwl.com
+ipaddress: : 10.146.55.81

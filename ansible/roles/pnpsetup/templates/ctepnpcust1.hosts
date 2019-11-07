@@ -1,0 +1,27 @@
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+127.0.0.1    changeme.cte-prod.aws.gwl.com changeme
+10.146.55.45 goldendb.cte-prod.aws.gwl.com goldendb
+10.146.55.95 combineddb.cte-prod.aws.gwl.com combineddb
+143.199.99.100 is-poem1 is-poem1.gwl.com
+10.146.55.12
+10.146.55.88
+10.146.55.88
+10.146.55.88
+10.146.55.122
+10.146.55.122
+10.146.55.71
+10.146.55.71
+10.146.55.80
+10.146.55.80
+10.146.55.32
+10.146.55.32
+10.146.55.32
+10.146.55.51
+10.146.55.51
+10.146.55.51
+10.146.55.51
+10.146.55.51
+10.146.55.51
+10.146.55.81
+10.146.55.81

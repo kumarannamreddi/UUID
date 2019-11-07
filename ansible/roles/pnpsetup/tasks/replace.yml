@@ -1,0 +1,17 @@
+---
+
+- name: getting the UUID
+  become: yes
+  become_user: root
+  shell: export SDA1= blkid -s -o value /dev/xvdc
+  args:
+    executable: /bin/bash
+
+- name: replacing UUID 
+  become: yes
+  become_useer: root
+  replace:
+    path: /etc/fstab
+    regex: '(UUID = \"\([^\"]*\)\".*/\1/p)"
+    replace: "UUID = "{{ lookup("env", "SDA1") }}"
+    backup: yes
