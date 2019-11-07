@@ -1,0 +1,7 @@
+UUID=d5388b06-35e3-435e-8eaf-09a08de83883 /       ext4   defaults     0 0
+/swapfile1 swap swap defaults,nofail 0 0
+UUID=f4b2e269-791b-41c2-b980-9ef708c4f2ef /u01/app/oracle ext4 defaults,nofail 0 2
+UUID=b89cf93e-be9a-46b9-b169-d40d74d97f6a /u01/data ext4 defaults,nofail 0 2
+UUID=93eb0bf2-471c-4db0-8bea-f464c5102488 /REFRESHTEST ext4 defaults,nofail 0 2
+UUID=0d033bcb-327f-458e-95b7-b9ea23857809 /u02/data ext4 defaults,nofail 0 2
+10.121.154.119:/cte_rat_dbf_aws /rmancte nfs rw,bg,hard,nointr,rsize=32768,wsize=32768,tcp,actimeo=0,vers=3,timeo=600
