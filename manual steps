@@ -1,3 +1,7 @@
 step 1:   mkfs -t ext4 /dev/nvme2n1
 step 2: blkid /dev/nvme2n1
-step 3: replace this blkid in the line /u01/data
+          --- to extract the blkid i used command "blkid -s UUID -o value /dev/nvme2n1"
+step 3: replace this blkid for UUID in the line /u01/data in UUID file
+
+need to follow this steps nvme1n1
+for step 3: replace blkid for the line with /u02/data/
