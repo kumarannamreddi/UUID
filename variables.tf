@@ -1,19 +1,19 @@
 variable "vpc_id" {
         description     =        "The default VPC"
         type            =        "string"
-        default         =        "vpc-00e607d1c5a180ed1"
+        default         =        ""
 }
 
 variable "db_ami" {
         description     =       "providing the ami id"
         type            =       "string"
-        default         =       "ami-04c74312f208a9287"
+        default         =       ""
 }
 
 variable "security_groups" {
     type                =  "list"
     description         = "list of security groups"
-    default             =  ["sg-0f569a4e90f9515a3", "sg-0c8f751c431129040", "sg-097d2a1f0ccd8a6fe", "sg-0921f75500ad2f255", "sg-067be79c45adab1ea", "sg-039f36bf766af3386", "sg-039f36bf766af3386"]
+    default             =  [""]
 }
 
 variable "type" {
@@ -23,7 +23,7 @@ variable "type" {
 
 variable "subnet_id" {
         type            =       "string"
-        default         =       "subnet-0337ec7d3fbb316c7"
+        default         =       ""
 }
 
 variable "key_name" {
@@ -33,7 +33,7 @@ variable "key_name" {
 
 variable "tag_snapshot" {
 	type		=	"string"
-	default 	=	"snap-0bab7ac23f449e92e"
+	default 	=	""
 }
 variable "oraclesid" {
 	type 		=	"string"
